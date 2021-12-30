@@ -16,13 +16,18 @@
 ## Measurement
  
 ### Stock Market Performance Measurement
-
-```math
-a^2+b^2=c^2
-```
+Calculate the percentage of change in closing price as stock return:
 Stock Price Change Percentage = (Closing Price<sub>t</sub> - Closing Price<sub>t-1</sub> )Closing Price<sub>t-1</sub> * 100
 
+### Model Performance Measurement: RMSE
+In time series analysis, measuring model prediction accuracy became tricky when it came to a non-classification problem like predicting stock market performance. In this project, I calculated the root mean square error (RMSE) to measure the model performances
 
-calculate the percentage of change in closing price as stock return:
-$$Stock Price Change Percentage = (Closing Pricet - Closing Pricet-1)Closing Pricet-1*100$$
+### Methods 
+The following methods were considered in this project :
+- Time Series Analysis
+* ARIMA
+* Generalized Autoregressive Conditional Heteroskedasticity (GARCH)
+* State-space model with Kalman Filter and Expectation Maximization
+Market Sentiment Analysis
+Flair’s pre-trained sentiment analysis model to classify sentiment in news headlines. Linear regression to examine the correlation between sentiment and market movement. 
 
