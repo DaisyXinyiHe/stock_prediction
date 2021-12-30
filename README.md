@@ -32,3 +32,20 @@ The following methods were considered in this project :
   * Flair’s pre-trained sentiment analysis model to classify sentiment in news headlines. 
   * Linear regression to examine the correlation between sentiment and market movement. 
 
+### Training and Testing Dataset
+In order to measure the performance of the methods, I splitted the data into a training set and a testing set. The training set contained the first 80% of the dataset and the testing set contained the rest of the 20% of the dataset. In order to preserve the time order, I did not randomize my sampling process. 
+
+### Pre-processing in News Headlines
+All news headlines were pre-processed before being classified as a positive or negative news headline: 
+- Step 1: Transform all news headlines into lower-case headlines. 
+- Step 2: Remove all punctuations in the headlines. 
+- Step 3: Remove words that do not add information to the sentences (stop words). 
+The processed news headlines were then feed to a pre-trained sentiment analysis model and were classified to have positive or negative sentiments. 
+
+### References: 
+* Bishop, C. (2006). Pattern Recognition and Machine Learning. Springer.
+* Chen, Z., & Brown, E. (2013, June 13). State space model. Scholarpedia. Retrieved December 17, 2021, from http://www.scholarpedia.org/article/State_space_model
+* Meyler, A., Kenny, G., & Quinn, T. (1998). Forecasting irish inflation using ARIMA models. Munich Personal RePEc Archive, 1-48. https://mpra.ub.uni-muenchen.de/11359/1/cbi_3RT98_inflationarima.pdf
+* Shumway, R., & Stoffer, D. (2000). Time Series Analysis and Its Applications. Springer.
+
+
