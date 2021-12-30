@@ -20,11 +20,9 @@
 ```math
 a^2+b^2=c^2
 ```
-![equation](Stock Price Change Percentage = (Closing Price<sub>t</sub> - Closing Price<sub>t-1</sub> )Closing Price<sub>t-1</sub> * 100)
+Stock Price Change Percentage = (Closing Price<sub>t</sub> - Closing Price<sub>t-1</sub> )Closing Price<sub>t-1</sub> * 100
 
 
 calculate the percentage of change in closing price as stock return:
-$$
-Stock Price Change Percentage = (Closing Pricet - Closing Pricet-1)Closing Pricet-1*100 .
-$$
+$$Stock Price Change Percentage = (Closing Pricet - Closing Pricet-1)Closing Pricet-1*100$$
 
