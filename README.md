@@ -25,9 +25,10 @@ In time series analysis, measuring model prediction accuracy became tricky when 
 ### Methods 
 The following methods were considered in this project :
 - Time Series Analysis
-* ARIMA
-* Generalized Autoregressive Conditional Heteroskedasticity (GARCH)
-* State-space model with Kalman Filter and Expectation Maximization
-Market Sentiment Analysis
-Flair’s pre-trained sentiment analysis model to classify sentiment in news headlines. Linear regression to examine the correlation between sentiment and market movement. 
+  * ARIMA
+  * Generalized Autoregressive Conditional Heteroskedasticity (GARCH)
+  * State-space model with Kalman Filter and Expectation Maximization
+- Market Sentiment Analysis
+  * Flair’s pre-trained sentiment analysis model to classify sentiment in news headlines. 
+  * Linear regression to examine the correlation between sentiment and market movement. 
 
