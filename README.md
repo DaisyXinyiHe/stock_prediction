@@ -22,7 +22,7 @@ Stock Price Change Percentage = (Closing Price<sub>t</sub> - Closing Price<sub>t
 ### Model Performance Measurement: RMSE
 In time series analysis, measuring model prediction accuracy became tricky when it came to a non-classification problem like predicting stock market performance. In this project, I calculated the root mean square error (RMSE) to measure the model performances
 
-### Methods 
+## Methods 
 The following methods were considered in this project :
 - Time Series Analysis
   * ARIMA
@@ -42,7 +42,7 @@ All news headlines were pre-processed before being classified as a positive or n
 - Step 3: Remove words that do not add information to the sentences (stop words). 
 The processed news headlines were then feed to a pre-trained sentiment analysis model and were classified to have positive or negative sentiments. 
 
-### References: 
+## References: 
 * Bishop, C. (2006). Pattern Recognition and Machine Learning. Springer.
 * Chen, Z., & Brown, E. (2013, June 13). State space model. Scholarpedia. Retrieved December 17, 2021, from http://www.scholarpedia.org/article/State_space_model
 * Meyler, A., Kenny, G., & Quinn, T. (1998). Forecasting irish inflation using ARIMA models. Munich Personal RePEc Archive, 1-48. https://mpra.ub.uni-muenchen.de/11359/1/cbi_3RT98_inflationarima.pdf
